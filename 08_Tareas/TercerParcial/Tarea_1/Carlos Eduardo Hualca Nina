@@ -1,0 +1,55 @@
+<section>
+ <div class="a"></div>
+ <div class="b"></div>
+ <div class="c"></div>
+ <div class="d"></div>
+ <div class="e"></div>
+ <div class="border"></div>
+</section>
+
+section{
+  background-color: slateblue;
+  width: 469px;
+  height: 336px;
+}
+div.a{
+  background-color: darkorange;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+}
+div.b{
+  background-color: hotpink;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  right: 10px;
+}
+div.c{
+  background-color: olivedrab;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 10;
+  bottom: 10px;
+}
+div.d{
+  background-color: blue;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+div.e{
+  background-color: red;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  margin: 200px;
+  top: -65px;
+}
+div.border{
+  height: 315px;
+  border: 10px solid;
+}
